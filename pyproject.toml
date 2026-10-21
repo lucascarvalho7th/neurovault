@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurovault"
+version = "0.1.0"
+description = "Simulated brain-to-vault pipeline: EEG -> intent gate -> decoder -> Claude -> Obsidian"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lucas Carvalho" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "anthropic>=0.40",
+]
+keywords = ["bci", "eeg", "brainflow", "obsidian", "second-brain", "claude", "llm"]
+
+[project.optional-dependencies]
+brainflow = ["brainflow>=5.10"]
+dev = ["pytest>=7", "brainflow>=5.10"]
+
+[project.scripts]
+neurovault = "neurovault.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["neurovault*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

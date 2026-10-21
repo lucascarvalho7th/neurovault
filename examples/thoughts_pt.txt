@@ -1,0 +1,8 @@
+# Um "pensamento pretendido" por linha. O decodificador simulado emite em ordem,
+# um por episódio de captura, com erros de decodificação simulados.
+E se o vault sugerisse quais notas antigas eu deveria revisar toda semana
+Preciso renovar o domínio do meu site de portfólio antes de sexta
+Decidi usar o Claude para a revisão semanal em vez de fazer na mão
+Por que eu sempre tenho ideias melhores andando do que sentado no computador?
+Hoje foi um dia lento mas terminar aquele projeto de automação valeu a pena
+Lembrar de testar o headset de EEG com a placa de playback antes de comprar um

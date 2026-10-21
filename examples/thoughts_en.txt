@@ -1,0 +1,8 @@
+# One "intended" thought per line. The mock decoder emits them in order,
+# one per capture episode, with simulated decoding errors.
+What if the vault could suggest which old notes I should revisit each week
+I need to renew the domain for my portfolio website before Friday
+I decided to use Claude for the weekly review instead of doing it by hand
+Why do I always have better ideas while walking than at my desk?
+Today felt slow but finishing that automation project was worth it
+Remember to test the EEG headset with the playback board before buying one

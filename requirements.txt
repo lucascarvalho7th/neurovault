@@ -1,0 +1,4 @@
+numpy>=1.24
+anthropic>=0.40
+brainflow>=5.10
+pytest>=7
