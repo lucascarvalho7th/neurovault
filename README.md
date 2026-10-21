@@ -7,12 +7,12 @@ NeuroVault is a sandbox for one question: *what would a "second brain" look like
 Real thought-to-text hardware isn't something you can buy yet. Implanted speech BCIs decode inner speech in research labs, and non-invasive wearables are still early. So NeuroVault simulates the parts that don't exist yet and keeps every stage behind a small interface. When real hardware or a real decoder becomes available, you swap one module and the rest of the pipeline stays the same.
 
 ```
-┌──────────────┐   ┌─────────────┐   ┌─────────────┐   ┌──────────────┐   ┌────────────────┐
+┌──────────────┐   ┌─────────────┐    ┌─────────────┐    ┌──────────────┐   ┌────────────────┐
 │ Signal source│──▶│ Intent gate │──▶│   Decoder   │──▶│  Organizer   │──▶│ Obsidian vault │
-│ simulated /  │   │ "am I       │   │ brain → text│   │ Claude fixes,│   │ Ideas/ Tasks/  │
-│ BrainFlow    │   │ thinking a  │   │ (mock, with │   │ classifies,  │   │ Decisions/ ... │
-│ (EEG)        │   │ note now?"  │   │ real errors)│   │ titles, links│   │ Daily log      │
-└──────────────┘   └─────────────┘   └─────────────┘   └──────────────┘   └────────────────┘
+│ simulated /  │   │ "am I       │    │ brain → text│    │ Claude fixes,│   │ Ideas/ Tasks/  │
+│ BrainFlow    │   │ thinking a  │    │ (mock, with │    │ classifies,  │   │ Decisions/ ... │
+│ (EEG)        │   │ note now?"  │    │ real errors)│    │ titles, links│   │ Daily log      │
+└──────────────┘   └─────────────┘    └─────────────┘    └──────────────┘   └────────────────┘
 ```
 
 ## What each stage does
